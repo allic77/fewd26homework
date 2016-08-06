@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+	margin: 30px;
+	font-size: 16px;
+}
+
+#notification {
+	border: 1px solid #CCC;
+	padding: 10px;
+	background: #EEE;
+}
+
+.message {
+	background: #FFE;
+	padding: 15px;
+	border: 2px solid #CCB;
+	margin: 10px 0;
+}
+
+.error {
+	background: #FEE;
+	border-color: #C66;
+}
+
+code {
+	background: black;
+	color: white;
+}
+
+strong {
+	font-weight: bold;
+}
