@@ -29,12 +29,16 @@ a {
 
 .container {
 	width: 960px;
+	height: 700px;
 	margin: 0 auto;
 }
 
 .logo {
-	font-size: 48px;
-	font-weight: 800;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	color: white;
+
 }
 
 .pageIntro {
@@ -65,4 +69,31 @@ a {
 .btn-cta {
     background: #F9E42E;
     color: #033048;
+}
+
+.middle {
+	background-color: #F0EFEF;
+	padding: 100px 0 80px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: 450; 
+	font-size: 40px;
+	color: #033048;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.opening {
+	font-weight: 350;
+	font-size: 13px;
+	color: #606161;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.bullets {
+	font-weight: 350;
+	font-size: 13px;
+	color: grey;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
