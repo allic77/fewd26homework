@@ -10,43 +10,6 @@ a {
   text-decoration: none;
 }
 
-.relaxr-corestyles em {
-  font-style: italic;
-}
-
-.relaxr-corestyles strong {
-  font-weight: bold;
-}
-
-.relaxr-corestyles p {
-  font-size: 26px;
-}
-
-.relaxr-corestyles ul {
-  margin: 30px 0px 30px 80px;
-  list-style: disc;
-}
-
-.relaxr-corestyles ol {
-  margin: 30px 0px 30px 80px;
-  list-style: decimal;
-}
-
-.relaxr-corestyles ul {
-  margin: 12px 0px 12px 40px;
-  list-style: disc;
-}
-
-.relaxr-corestyles ol {
-  margin: 12px 0px 12px 40px;
-  list-style: decimal;
-}
-
-.featureText p {
-  font-style: italic;
-  font-size: 30px;
-}
-
 /* Center the container */
 .outer-container {
   width: 960px;
@@ -65,11 +28,33 @@ a {
   font-weight: 600;
 }
 
+.relaxr-corestyles em {
+  font-style: italic;
+}
+
+.relaxr-corestyles strong {
+  font-weight: bold;
+}
+
+.relaxr-corestyles p {
+  font-size: 26px;
+}
+
+
+.relaxr-corestyles p.featureText {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.relaxr-corestyles p.featureText em {
+  font-style: normal;
+}
+
+.relaxr-corestyles p.featureText strong {
+  font-style: normal;
+}
 
 /* Core Styles */
-.relaxr-corestyles p {
-  font-weight: normal;
-}
 
 
 .relaxr-corestyles h1,
@@ -84,33 +69,57 @@ a {
   margin-top: 16px;
 }
 
-
-
 .relaxr-corestyles h1 {
   font-size: 40px;
 }
 
 .relaxr-corestyles h2 {
-  size: 32;
+  font-size: 32px;
 }
 
 .relaxr-corestyles h3 {
-  size: 26px;
+  font-size: 26px;
+  text-transform: uppercase;
 }
 
 .relaxr-corestyles h4{
-  size: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .relaxr-corestyles h5 {
-  size: 18px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .relaxr-corestyles h6 {
-  size: 16px;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
+.relaxr-corestyles ul, .relaxr-corestyles ol {
+  margin: 30px 0px 30px 80px;
+}
 
+.relaxr-corestyles ul ul, .relaxr-corestyles ol ol {
+  margin: 12px 0 12px 40px;
+}
+
+.relaxr-corestyles li {
+  margin-bottom: 8px;
+}
+
+.relaxr-corestyles ul {
+  list-style: disc;
+}
+
+.relaxr-corestyles > ol > li > ol {
+  list-style: upper-roman;
+}
+
+.relaxr-corestyles ol {
+  list-style: decimal;
+}
 
 /* Footer */
 .pageFooter {
