@@ -17,15 +17,25 @@ header {
 .main {
 	background: yellow;
 	width: 60%;
-	float: left;
+	margin-left: 20%;
+	margin-right: 20%;
 	height: 300px;
+	
 }
 
 .sideBar {
 	background: blue;
-	width: 40%;
-	float: right;
+	width: 20%;
 	height: 300px;
+	margin-left: 80%;
+}
+
+.sideBarLeft {
+	background: blue;
+	width: 20%;
+	height: 300px;
+	margin-right: 80%;
+
 }
 
 footer {
