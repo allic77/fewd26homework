@@ -17,28 +17,50 @@ header {
 
 .main {
 	background: yellow;
-	width: 52.5%;
+	width: 60%;
 /*	margin-left: 20%;
 	margin-right: 20%;*/
 	float: left;
-	margin-left: 10px;
 }
 
 .sideBar {
 	background: blue;
-	width: 23%;
+	width: 49%;
 	/*margin-left: 80%;*/
 	float: left;
 	margin-bottom: 27px;
-	margin-left: 10px;
 }
 
 .sideBarLeft {
 	background: blue;
-	width: 23%;
+	width: 49%;
 	/*margin-right: 80%;*/
 	float: left;
 	margin-bottom: 27px;
+	margin-right: 25px;
+}
+
+.row3left {
+	background: yellow;
+	width: 32%;
+	/*margin-left: 80%;*/
+	float: left;
+	margin-right: 27px;
+}
+
+.row3middle {
+	background: yellow;
+	width: 32%;
+	/*margin-left: 80%;*/
+	float: left;
+	margin-right: 27px;
+}
+
+.row3right {
+	background: yellow;
+	width: 32%;
+	/*margin-left: 80%;*/
+	float: left;
 }
 
 footer {
@@ -46,6 +68,7 @@ footer {
 	width: 100%;
 	clear: both;
 	overflow: auto;
+	margin-top: 27px;
 }
 
 .placeholder {
@@ -57,6 +80,12 @@ footer {
 }
 
 .wrapper {
+	width: 100%;
+	overflow: auto;
+
+}
+
+.wrapper2 {
 	width: 100%;
 	overflow: auto;
 

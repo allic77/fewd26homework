@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background: pink;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.box {
+	background: #EEE;
+	border: 1px solid grey;
+	padding: 40px;
+}
+
+.content_left {
+	width: 590px;
+	float: left;
+	margin-right: 20px;
+}
+
+.content_right {
+	width: 590px;
+	float: left;
+}
+
+.col3 {
+	width: 32%;
+	float: left;
+	margin-right: 20px;
+}
+
+.col3_last {
+	margin-right: 0;
+	float: right;
+}
+
+.hdr,
+.content_area,
+.col3_area {
+	width: 100%;
+	margin-bottom: 20px;
+	float: left;
+}
+
+

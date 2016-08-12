@@ -1,0 +1,123 @@
+/*
+ Floating Sections Code-Along
+
+ Make the header red and 100% width
+ Main should be yellow and 60% wide
+ sideBar should be green and 40% wide
+ pageFooter should be blue and 100% width
+
+ */
+header {
+	background: red;
+	width: 100%;
+	clear: both;
+	overflow: auto;
+	margin-bottom: 27px;
+}
+
+.section_logo {
+	width: 220px;
+	float: left;
+}
+
+.section_nav1 {
+	width: 120px;
+	float: right;
+	padding: 5px;
+}
+
+.section_nav2 {
+	width: 120px;
+	float: right;
+	padding: 5px;
+}
+
+.section_nav3 {
+	width: 120px;
+	float: right;
+	padding: 5px;
+}
+
+.section_nav4 {
+	width: 120px;
+	float: right;
+	padding: 5px;
+}
+
+.main {
+	background: yellow;
+	width: 60%;
+/*	margin-left: 20%;
+	margin-right: 20%;*/
+	float: left;
+}
+
+.sideBarLeft {
+	background: blue;
+	width: 100%;
+	/*margin-right: 80%;*/
+	float: left;
+	margin-bottom: 27px;
+	margin-right: 25px;
+}
+
+.row3left {
+	background: yellow;
+	width: 32%;
+	/*margin-left: 80%;*/
+	float: left;
+	margin-right: 27px;
+}
+
+.row3middle {
+	background: yellow;
+	width: 32%;
+	/*margin-left: 80%;*/
+	float: left;
+	margin-right: 27px;
+}
+
+.row3right {
+	background: yellow;
+	width: 32%;
+	/*margin-left: 80%;*/
+	float: left;
+}
+
+footer {
+	background: green;
+	width: 100%;
+	clear: both;
+	overflow: auto;
+	margin-top: 27px;
+}
+
+.placeholder {
+	border: 1px solid #EEE;
+	background: rgba(255, 255, 255, .6);
+	padding: 20px;
+	height: 150px;
+	margin: 10px;
+}
+
+.wrapper {
+	width: 100%;
+	overflow: auto;
+}
+
+.wrapper2 {
+	width: 100%;
+	overflow: auto;
+}
+
+.wrapper3 {
+	width: 100%;
+	overflow: auto;
+}
+
+.wrapper4 {
+	width: 80%;
+	overflow: auto;
+	float: right;
+	margin-left: 2px;
+}

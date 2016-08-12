@@ -10,29 +10,33 @@
 header {
 	background: red;
 	width: 100%;
-	height: 150px;
 	clear: both;
+	overflow: auto;
+	margin-bottom: 27px;
 }
 
 .main {
 	background: yellow;
-	width: 60%;
+	width: 58.5%;
 	float: left;
-	height: 300px;
+	overflow: auto;
+	margin-bottom: 27px;
 }
 
 .sideBar {
 	background: blue;
 	width: 40%;
 	float: right;
-	height: 300px;
+	overflow: auto;
+	margin-bottom: 27px;
+	margin-left: 10px;
 }
 
 footer {
 	background: green;
 	width: 100%;
-	height: 150px;
 	clear: both;
+	overflow: auto;
 }
 
 .placeholder {
