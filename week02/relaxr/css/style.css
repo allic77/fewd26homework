@@ -45,6 +45,7 @@ a {
 	background: url("../images/header_bg.jpg") top center;
 	background-size: cover;
 	padding: 30px;
+	height: 700px;
 }
 
 .tagline {
@@ -72,28 +73,32 @@ a {
 }
 
 .middle {
-	background-color: #F0EFEF;
+	background-color: white;
 	padding: 100px 0 80px;
 	margin: 0 auto;
 }
 
 .title {
-	font-weight: 450; 
+	font-weight: 600; 
 	font-size: 40px;
 	color: #033048;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	margin-bottom: 40px;
 }
 
 .opening {
-	font-weight: 350;
-	font-size: 13px;
+	font-weight: 300;
+	font-size: 26px;
+	width: 600;
 	color: #606161;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .bullets {
-	font-weight: 350;
-	font-size: 13px;
-	color: grey;
+	font-weight: 300;
+	font-size: 26px;
+	width: 600;
+	color: #606161;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	line-height: 1.4;
 }
