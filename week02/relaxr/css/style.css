@@ -15,7 +15,7 @@
   height: 0;
 }
 body {
-	color:#F0EFEF;
+	/*color:#F0EFEF;*/
 	line-height: 1.5;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 300;
@@ -23,6 +23,10 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+ul {
+	margin: 30px 0 0 80px; 
 }
 
 /* Center the Container */
@@ -101,4 +105,22 @@ a {
 	color: #606161;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	line-height: 1.4;
+}
+
+.quote {
+	color: #033048;
+	padding: 100px 0 80px;
+	margin: 0 auto;
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+}
+
+.actualquote {
+	font-weight: 600; 
+	font-size: 40px;
+	color: #033048;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	margin-bottom: 40px;
 }
