@@ -1,7 +1,7 @@
-jQuery(document).ready(function(){
+jQuery(document).ready(function (e){
 	
 // When the Read More is clicked display the show-this-on-click. //
-    jQuery('.readmore').click(function){
+    jQuery('.readmore').click(function (e){
         e.preventDefault();
         jQuery('#show-this-on-click').slideDown();
         jQuery('p.readmore').hide();
@@ -9,7 +9,7 @@ jQuery(document).ready(function(){
     });
 
 // When the Read Less is clicked slide back up. //
-    jQuery('.readless').click(function){
+    jQuery('.readless').click(function (e){
     	e.preventDefault();
     	jQuery('#show-this-on-click').slideUp();
     	jQuery('p.readmore').show();
@@ -17,7 +17,7 @@ jQuery(document).ready(function(){
     });
 
 // When the Learn More is clicked display the learnmoretext. //
-    jQuery('.learnmore').click(function){
+    jQuery('.learnmore').click(function (e){
     	e.preventDefault();
     	jQuery('#learmoretext').slideDown();
     	jQuery('a.learnmore').show();
