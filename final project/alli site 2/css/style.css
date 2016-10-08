@@ -1,0 +1,534 @@
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+  display: block;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+
+
+
+
+.logo, .logo /*a:hover*/ {
+    text-decoration:none;
+    margin-top: 3px;
+}
+
+.workpiecerecent img {
+    opacity:0.5;
+    -webkit-transition:opacity 0.5s;
+    -moz-transition:opacity 0.5s;
+    transition:opacity 0.5s;
+}
+
+.workpiecerecent:hover img {
+    opacity:1;
+}
+
+.navigation {
+    float: right;
+    padding-top: 80px;
+
+}
+
+.horizontal-nav {
+    padding: 0;
+    list-style: none;
+
+}
+
+.horizontal-nav li{
+    display: inline-block;
+    padding-top: 0px;
+}
+
+
+
+.main-nav {
+    overflow:hidden;
+}
+
+.main-nav li {
+    margin-right: 50px;
+}
+
+
+.main-nav a {
+    color: grey;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+
+element.style {
+    opacity: 1;
+}
+
+
+#hero { 
+    height: 850px;
+    background: url(../images/Desert2_hmpg.jpg);
+    padding-top: 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-style: solid;
+    border-top-color: #F16522;
+    border-top-width: 6px;
+
+}
+
+.work p { 
+    text-align: center;
+    color: black;
+    margin: 6px 0px 30px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 10px 0px 10px;
+
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-color: #F16522;
+    border-top-color: #F16522;
+    border-bottom-width: 1.5px;
+    border-top-width: 1.5px;
+    border-padding: 40px;
+
+}
+
+#hero h2 {
+    text-align: center;
+    color: black;
+    margin: 20px 0px 5px;
+    /*font-weight: 600;*/
+
+    font-size: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    /*margin: 0;*/
+}
+
+#hero h3 {
+    font-size: 33px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px;
+    /*line-height: 150%;*/
+    font-style: italic;
+    color: black;
+    /*margin: 20px 0px 20px;*/
+}
+
+#hero h4 {
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    /*margin: 0;*/
+    color: black;
+    /*line-height: 150%;*/
+    /*margin-top: 10px;*/
+    margin: 0px 0px 20px;
+}
+
+.container2 ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+/*.container2 ul li a {
+  text-align: center;
+}*/
+
+.about img {
+    padding-right: 10px;
+}
+
+.col-md-4 .servicevector img {
+    /*width: 100%;*/
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.col-md-4 .servicevector p {
+    padding-bottom: 10px 0px 0px 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    color: #F16522;
+}
+
+.col-md-4 .servicevector ul li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: grey;
+}
+
+.col-md-4 .servicevector ul {
+    padding-top: 20px;
+}
+
+.col-md-4 .servicevector ul ul {
+    padding-top: 0px;
+}
+
+.serviceinfo p {
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    text-align: center;
+    /*margin-top: 10px;*/
+    line-height: 150%;
+    font-style: italic;
+    color: grey;
+    /*margin: 20px 0px 20px;*/
+}
+
+.serviceinfo h1 {
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-align: center;
+    color: #F16522;
+}
+
+.work2 p a {
+    text-decoration:none;
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    font-size: 16px;
+}
+
+.work2 p {
+    text-decoration:none;
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    font-size: 16px;
+}
+
+
+.hometagline {
+    background-color: #00ADEE;
+}
+
+.shortaboutme {
+    color: white;
+}
+
+.shortaboutme h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Julius Sans One', sans-serif;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 5px 5px 0px;
+}
+
+.shortaboutme p {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+
+.recentwork h1 {
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 33px;
+    color: black;
+}
+
+.recentwork p {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.recentwork p a {
+    text-decoration:none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    color: black;
+}
+
+.myinfo h1 {
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    font-size: 22px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.myinfo h2 {
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    font-size: 22px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.myinfo h3 {
+    color: #00ADEE;
+    font-family: 'Satisfy', cursive;
+    font-weight: 1000;
+    font-size: 27px;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.myinfo h1 a {
+    text-decoration:none;
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    font-size: 22px;
+    text-align: center;
+}
+
+.serviceopening p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+}
+
+
+.pic {
+    padding-top: 40px;
+}
+
+#details h1 {
+    padding-left: 0px;
+    margin: 0;
+    padding-top: 40px;
+    text-align: left;
+
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 33px;
+    color: grey;
+}
+
+#details p {
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: grey;
+}
+
+#details h2 {
+    padding-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 21px;
+    color: grey;
+}
+
+#details .col-md-5 {
+    padding-left: 0px;
+}
+
+
+
+/*strong { 
+    font-weight: bold;
+}*/
+
+.workpiecerecent {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 33.333%;
+    float: left;
+}
+
+.workpiecerecent img {
+    display: block;
+    width: 100%;
+}
+
+/*trying to fix work page*/
+.col-md-3 .workpiecerecent {
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/*trying to fix work page*/
+.col-md-3 .workpiecerecent img {
+    display: block;
+    width: 100%;
+}
+
+.copyright {
+    /*font-family: 'Merriweather', serif;*/
+    color: white;
+    background-color: grey;
+    padding: 20px;
+    background-size: cover;
+}
+
+
+
+
+.copyright a {
+    padding: 5px;
+}
+
+
+footer {
+  text-align: center;
+}
+
+
+
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    /* Style adjustments for viewports that meet the condition */
+    .logo {
+        display: block;
+        text-align: center;
+    }
+
+/*    .block {
+        border-right: none;
+        margin-bottom: 2em;
+    }*/
+
+    .navigation {
+        /*text-align: center;*/
+        /*width: auto;*/
+        /*float: middle;*/
+        padding-top: 10px;
+        text-align: center;
+        display: block;
+    }
+
+    .main-nav .horizontal-nav a {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+/*    .main-nav a {
+        text-align: center;
+        display: block;
+        float: center;
+    }*/
+
+/*    .horizontal-nav li {
+        display: block;
+        text-align: center;
+    }*/
+
+/*    .main-nav li {
+        margin-right: 0;
+    }*/
+
+/*    .main-nav strong {
+        text-transform: none;
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: normal;
+    }*/
+
+}
+
+/*@media screen and (min-width:700px) and (max-width:991px){
+    p {
+        text-align:center;
+    }
+}*/
+
+/*.container {
+    margin: 0px;
+    padding: 0px;
+}
+*/
