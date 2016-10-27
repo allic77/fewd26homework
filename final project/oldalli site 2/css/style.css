@@ -272,24 +272,23 @@ element.style {
     color: white;
 }
 
-/*.shortaboutme h1 {
+.shortaboutme h1 {
     font-size: 22px;
     text-transform: uppercase;
     font-family: 'Julius Sans One', sans-serif;
+    /*font-family: Helvetica, Arial, sans-serif;*/
     font-weight: 600;
     text-align: center;
     padding: 5px 5px 5px 0px;
-}*/
+}
 
 .shortaboutme p {
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
     /*font-family: Helvetica, Arial, sans-serif;*/
-    font-weight: 200;
+    font-weight: 300;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    margin: 0px;
+    padding: 0px 20px 20px 20px;
 }
 
 .recentwork h1 {
